@@ -1,0 +1,18 @@
+let num=10;
+let count=0;
+for(let i=1;i<=num;i++)
+  {
+    if(i%10>=5)
+    {
+      break;
+    }
+    else
+    {
+    for(let j=1;j<num/2;j++)
+        {
+        count++;
+      
+  }
+  }
+  }
+console.log(count);
